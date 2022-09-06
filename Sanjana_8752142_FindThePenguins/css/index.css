@@ -1,0 +1,142 @@
+body {
+    background-color: #ccf5f5;
+}
+
+/* p {
+    width: 600px;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    color: darkslategrey;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 400%;
+    text-align: center;
+} */
+
+p:active{
+    transform: scale(1.5) ;
+}
+
+#play, #finish, #next, #replay {
+    width: 600px;
+    color: darkslategrey;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 400%;
+    text-align: center;
+    text-shadow: 2px 2px gray;
+}
+
+.hide {
+    display: none;
+}
+
+#gameholder {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    width: 600px;
+    height: 150px;
+    background-image:url('/images/penguin_title.png');
+}
+
+#score {
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    left: 80%;
+    top:10%;
+    padding-left: 10px;
+    border: 3px groove darkslategrey;
+    text-align: left;
+    font-family: Comic Sans MS;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: darkslategrey;
+    text-shadow: 2px 2px lightgrey;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.mound {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('/images/mound_1.png');
+}
+
+.mound:hover {
+    background-image:url('/images/mound_1_hover.png');
+    cursor: pointer;
+}
+
+.penguin1{
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('/images/penguin_1.png');
+}
+
+.penguin2 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('/images/penguin_2.png');
+}
+
+.penguin3{
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('/images/penguin_3.png');
+}
+
+.penguin4{
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('/images/penguin_4.png');
+}
+
+.penguin5{
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('/images/penguin_5.png');
+}
+
+.penguin6 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('/images/penguin_6.png');
+}
+
+.penguin7 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('/images/penguin_7.png');
+}
+.penguin8{
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('/images/penguin_8.png');
+}
+
+.yeti_display {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('/images/yeti.png');
+}
+
+.empty {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
